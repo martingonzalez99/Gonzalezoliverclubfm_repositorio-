@@ -1,0 +1,501 @@
+ body{background-image: url(assets/fonod5.png);
+  overflow: auto;      
+        
+}
+
+.gridlogo{
+    display: grid;
+    grid-template-columns: 100px;
+    background-color: black;
+    grid-template-rows: 50px;
+    grid-row-gap: 15px ;
+    grid-column-gap: 10px;
+}
+
+
+.gridnav{
+    background-color: black;
+    justify-content:start;
+  
+   
+
+}
+
+.inicio{
+    display: inline;
+   margin-left: 00px;
+   margin-right: 10px;
+  
+    
+     }
+
+.noticias{
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 10px;  }
+  
+
+
+ .redes{
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+ }
+
+ .tvvivo{
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+ 
+
+.contacto{
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.gridimg{
+    display: grid;
+  width: 96%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.imgg{
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.header{
+        display: flex;
+        justify-content:auto;
+        align-items: center;
+        background-color: black;
+        border: solid black;
+     
+}
+        
+
+
+ .logoweb{ 
+     width:80px;
+    height: 80px;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 00px;
+    border-top: solid black;
+    border-bottom: solid black;
+  text-transform: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+
+.list li{ 
+    display: inline ;
+    margin: 00px;
+    bottom: 200px;
+    justify-content: space-around;
+}
+ 
+.parrafo{
+
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    background-color: white;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+   border: double  white;
+
+  }
+
+  .a{ 
+      text-decoration: none;
+      color:white;
+  }
+
+  .ali{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: white;
+    text-decoration: none;
+  }
+
+  .listdos{
+      list-style-type: none;
+      display: inline-block;
+     width: 100px;
+     margin-top: 50px;
+     margin-left: 50px;
+     }
+
+.footer{
+
+    margin-top: 300px;
+    overflow: hidden; 
+    height: 200px; ;  
+    margin: 0px;
+ 
+
+}
+
+
+
+
+
+
+
+/*diseño de page:tvivo*/
+
+
+.bodytv{
+    background-image: url(././assets/fonod5.png);  }
+
+.headertv{
+    background-color: black;
+    border: solid black;
+   
+}   
+
+
+
+
+.ultv{
+  list-style: none;  
+display: inline-block;
+} 
+
+.listtv{
+    display: inline-block;
+    width: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin-left: 200px;
+  
+
+}
+
+.h1tv{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+padding-left: 800px;
+}
+
+.videotv{
+    width: 1000px;
+    border: double white;
+    margin-left: 400px;
+
+}
+
+.footertv{ 
+    margin-top: 300px;
+    overflow: hidden; 
+    
+}
+
+.fottv{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    width: 90px;
+}
+
+.auno{
+    text-decoration: none;
+    color: white;
+}
+
+.afot{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* diseño redes*/
+
+
+.body{
+    background-image: url(./../assets/fonod5.png)
+}
+
+.lir{
+    list-style-type:none ;
+    display: inline;
+    margin: 0px;
+    border-top: 200px;
+    margin-left: -2px;
+    margin-right: 10px;
+   
+    
+    
+ 
+}
+
+.ulre{
+    background-color: black;
+    display: inline-block;
+   
+ 
+}
+
+.ar{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.h1r{
+    text-decoration:none;
+    padding: 0px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 100px;
+    text-decoration: underline;
+  
+    
+}
+
+.h2r{
+    text-decoration: none;
+
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 00px;
+    
+}
+
+.h5r{
+    display: none;
+    
+}
+
+.imgrr{
+    display: inline;
+  max-width: 500px;
+  max-height: 300px;
+margin-bottom: 00px;
+
+}
+
+.imgdosr{
+    max-width: 500px;
+    margin-bottom: 00px;
+    max-height:300px ;
+}
+
+.footr{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    display: inline-block; }
+
+.afr{
+    text-decoration: none;
+    color: white;
+}
+
+.lifr{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 100px; }
+
+
+
+
+
+
+
+/*diseño noticias*/
+
+.bodyn{
+    background-image:url(././assets/fonod5.png)
+}
+
+.uln{
+    list-style-type:none ;
+    background-color: black;
+    padding: 30px;
+    
+}
+
+    
+
+.listn{
+  display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin-left: 200px;
+
+}
+
+.an{
+    text-decoration: none;
+    color: white;
+    
+    
+
+}
+
+.h1n{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+padding-left: 800px; }
+
+.h2n{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: dotted;
+
+}
+
+.pn{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 400px;
+
+}
+
+.imgunon{
+    border: double white;
+    margin-top: -100px; 
+    width: 300px;
+    margin-left: 100px;
+    height: 300px;
+}
+
+.p2n{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 400px;
+}
+
+.imgn{
+    border: double white;
+    margin-top: -100px;
+    width: 500px;
+    height: 300px;
+}
+
+.fotn{
+    margin-top: 300px;
+    overflow: hidden; 
+    
+}
+
+.listnu{
+    list-style-type:none;
+    display: inline-block;
+    width: 200px;
+    margin-left: 600px;
+    
+}
+
+.an{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*diseño contacto */
+.bodyc{
+    background-image: url(././assets/fonod5.png);
+
+}
+
+.lic{ list-style-type:none ;
+    display: inline-block;
+    margin: 50px;
+    color: white;
+    margin-bottom: 400px;
+    
+}
+
+
+.ulc{
+text-decoration: none;
+color: white;
+background-color:  black;
+height: 100px;
+padding: -100px;
+margin-bottom: 50px;
+content: 200px;
+margin-top: 30px;
+
+
+
+
+}
+
+.ac{ color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+
+
+}
+
+.formc{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h1c{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.acus{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+}
+
+ 
+

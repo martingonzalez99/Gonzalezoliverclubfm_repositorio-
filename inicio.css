@@ -137,7 +137,7 @@
 .img{
     width: 100%;
     height: auto;
-   border: double  white; }
+   border: double  white;  animation-duration: 5s;}
 
   .a{ 
       text-decoration: none;

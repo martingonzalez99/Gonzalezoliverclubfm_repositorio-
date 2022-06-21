@@ -10,7 +10,10 @@
     grid-template-rows: 50px;
     grid-row-gap: 15px ;
     grid-column-gap: 10px;
+
 }
+
+
 
 
 .gridnav{
@@ -25,9 +28,12 @@
     display: inline;
    margin-left: 00px;
    margin-right: 10px;
-  
-    
      }
+
+
+
+    
+
 
 .noticias{
     display: inline;
@@ -100,6 +106,10 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
 
+
+  
+     
+
 .list li{ 
     display: inline ;
     margin: 00px;
@@ -117,26 +127,42 @@
     border-bottom: solid black;
     border-left: solid black;
     border-right: solid black;
-    background-color: white;
+    background-color: white;;
+}
+
+.parrafo:hover{
+    background-image:url(./assets/fonod5.png);
 }
 
 .img{
     width: 100%;
     height: auto;
-   border: double  white;
-
-  }
+   border: double  white; }
 
   .a{ 
       text-decoration: none;
-      color:white;
-  }
+      color: white}
+
+
+ .a:hover{ 
+    text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
+
+}
 
   .ali{
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      color: white;
     text-decoration: none;
   }
+
+.ali:hover{
+    text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
+
+}
 
   .listdos{
       list-style-type: none;

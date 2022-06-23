@@ -18,7 +18,7 @@
 
 .gridnav{
     background-color: black;
-    justify-content:start;
+    
   
    
 
@@ -267,25 +267,27 @@ padding-left: 800px;
 
 
 .body{
-    background-image: url(./../assets/fonod5.png)
+    background-image: url(./../assets/fonod5.png); 
+    
 }
+   
 
 .lir{
     list-style-type:none ;
-    display: inline;
-    margin: 0px;
-    border-top: 200px;
-    margin-left: -2px;
-    margin-right: 10px;
-   
-    
-    
- 
+    justify-content: space-between;
+    margin-left: 00px;
+    display:inline-block 
 }
+
+
+
+
 
 .ulre{
     background-color: black;
     display: inline-block;
+    justify-content: space-between;
+   
    
  
 }
@@ -297,28 +299,39 @@ padding-left: 800px;
    
 }
 
+.ar:hover { text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
+
+
+} 
+
+
+
 .h1r{
     text-decoration:none;
     padding: 0px;
     color:white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 100px;
+   justify-content: center;
     text-decoration: underline;
+    margin-left: 110px;
   
     
 }
 
 .h2r{
     text-decoration: none;
-
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 00px;
+    
+    justify-content: center;
     
 }
 
 .h5r{
     display: none;
+    justify-content: center;
     
 }
 
@@ -327,6 +340,7 @@ padding-left: 800px;
   max-width: 500px;
   max-height: 300px;
 margin-bottom: 00px;
+justify-content: center;
 
 }
 
@@ -334,22 +348,40 @@ margin-bottom: 00px;
     max-width: 500px;
     margin-bottom: 00px;
     max-height:300px ;
+    justify-content: center;
 }
 
 .footr{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     list-style: none;
-    display: inline-block; }
+    display: inline-block;
+    text-decoration: none;
+
+    
+}
+    
 
 .afr{
     text-decoration: none;
     color: white;
+   
 }
 
 .lifr{
     display: inline-block;
-    margin-right: 100px;
-    margin-top: 100px; }
+   margin-top: 100px;
+   text-decoration: none;
+   
+    
+}
+
+.imgddos{
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+}
 
 
 

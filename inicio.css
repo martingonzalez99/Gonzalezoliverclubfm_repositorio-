@@ -1,6 +1,6 @@
  body{background-image: url(assets/fonod5.png);
-  overflow: auto;      
-        
+    overflow: auto;    
+          
 }
 
 .gridlogo{
@@ -91,7 +91,7 @@
         
 
 
- .logoweb{ 
+ .logo{ 
      width:80px;
     height: 80px;
 }
@@ -192,11 +192,21 @@
 
 
 .bodytv{
-    background-image: url(././assets/fonod5.png);  }
+    
+     background-image: url(././assets/fonod5.png); 
+    overflow:visible;
+} 
 
 .headertv{
     background-color: black;
     border: solid black;
+    display: flex;
+    justify-content:auto;
+    align-items: center;
+    background-color: black;
+    border: solid black;
+    margin: top -230px;
+ 
    
 }   
 
@@ -205,16 +215,41 @@
 
 .ultv{
   list-style: none;  
-display: inline-block;
+display: inline;
+list-style: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display: flex;
+justify-content:auto;
+align-items: center;
+position: relative;
+top: -30px;
+left: -30px;
+
 } 
 
 .listtv{
-    display: inline-block;
-    width: 90px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    margin-left: 200px;
+    display: inline;
+  margin:00px;
+  margin-right: 10px;
+  margin-left: 0px; 
+  align-items: center;
+  margin-bottom:  -12px;
+  color: white;
+  
+}
+.logoweb{
+    width: 87px;;
+   position: relative;
+   top: -7px;
+   right: 10px;
+}
   
 
+
+.auno:hover{ text-decoration: double;
+    color: rgba(243, 243, 243, 0.658);
+    text-decoration: underline;
+    
 }
 
 .h1tv{
@@ -224,18 +259,25 @@ display: inline-block;
   border-left: solid black;
   border-right: solid black;
   background-color: white;
-padding-left: 800px;
+  text-align: center;  }
+
+.h1tv:hover{
+    background-image: url(./assets/fonod5.png);
 }
 
+
+
 .videotv{
-    width: 1000px;
+    width: 100%;
+    height: 100%;
     border: double white;
-    margin-left: 400px;
+    justify-content: center;
+    margin-left: 00px;
 
 }
 
 .footertv{ 
-    margin-top: 300px;
+    margin-top: 23px;
     overflow: hidden; 
     
 }
@@ -255,8 +297,12 @@ padding-left: 800px;
     text-decoration: none;
     color: white;
 }
+.afot:hover{
+    text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
 
-
+}
 
 
 

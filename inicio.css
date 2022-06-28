@@ -85,15 +85,17 @@
         justify-content:auto;
         align-items: center;
         background-color: black;
-        border: solid black;
+        border: solid black;position: relative;
+        top: 20px;
      
 }
         
 
 
  .logo{ 
-     width:80px;
+     width:70px;
     height: 80px;
+    
 }
 
 .list{
@@ -461,22 +463,40 @@ left: -30px;
 /*diseño noticias*/
 
 .bodyn{
-    background-image:url(././assets/fonod5.png)
+    background-image:url(././assets/fonod5.png);
+    
 }
 
-.uln{
-    list-style-type:none ;
+.ulnn{
+    list-style: none;  
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content:auto;
+    align-items: center;
+    position: relative;
+    top: -13px;
+    left: -30px;
+    color: white;
+    
+   
+   
+}
+
+
+.connt{
     background-color: black;
-    padding: 30px;
-    
 }
-
     
 
-.listn{
-  display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    margin-left: 200px;
+.listn{display: inline;
+    margin:00px;
+    margin-right: 10px;
+    margin-left: 0px; 
+    align-items: center;
+    margin-bottom:  -12px;
+    color: white;
+ 
 
 }
 
@@ -488,18 +508,30 @@ left: -30px;
 
 }
 
+.an:hover{ text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
+
+}
+
 .h1n{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border-top: solid black;
   border-bottom: solid black;
   border-left: solid black;
   border-right: solid black;
   background-color: white;
-padding-left: 800px; }
+  text-align: center;
+ }
+
+ .h1n:hover{
+    background-image: url(./assets/fonod5.png);
+ }
 
 .h2n{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-decoration: dotted;
+    text-align: center;
 
 }
 
@@ -508,19 +540,15 @@ padding-left: 800px; }
     color: white;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 0px;
-    margin-top: 100px;
-    margin-left: 700px;
-    margin-right: 400px;
+    
 
 }
 
 .imgunon{
     border: double white;
-    margin-top: -100px; 
-    width: 300px;
-    margin-left: 100px;
-    height: 300px;
+    width: 540px;
+    height: auto;
+    justify-items: center;
 }
 
 .p2n{
@@ -528,21 +556,17 @@ padding-left: 800px; }
     color: white;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 0px;
-    margin-top: 100px;
-    margin-left: 700px;
-    margin-right: 400px;
+    
 }
 
 .imgn{
     border: double white;
-    margin-top: -100px;
-    width: 500px;
-    height: 300px;
+    width: 540px;
+    
 }
 
 .fotn{
-    margin-top: 300px;
+    
     overflow: hidden; 
     
 }
@@ -550,9 +574,8 @@ padding-left: 800px; }
 .listnu{
     list-style-type:none;
     display: inline-block;
-    width: 200px;
-    margin-left: 600px;
-    
+    position:relative;
+    margin-top: 100px;
 }
 
 .an{
@@ -575,24 +598,36 @@ padding-left: 800px; }
 
 }
 
-.lic{ list-style-type:none ;
-    display: inline-block;
-    margin: 50px;
+.nac{
+    background-color: black;
+}
+
+.lic{ display: inline;
+    margin:00px;
+    margin-right: 10px;
+    margin-left: 0px; 
+    align-items: center;
+    margin-bottom:  -12px;
     color: white;
-    margin-bottom: 400px;
+    
     
 }
 
 
 .ulc{
-text-decoration: none;
-color: white;
-background-color:  black;
-height: 100px;
-padding: -100px;
-margin-bottom: 50px;
-content: 200px;
-margin-top: 30px;
+    list-style: none;  
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content:auto;
+    align-items: center;
+    position: relative;
+    top: -15px;
+    margin-bottom: 50px;
+    left: -30px;
+    color: white;
+    
+   
 
 
 
@@ -603,17 +638,33 @@ margin-top: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-decoration: none;
 
+}
+
+
+.ac:hover{ text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
 
 }
 
 .formc{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
 }
 
 .h1c{
-    color: white;
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    background-color: white;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.h1c:hover{ background-image: url(./assets/fonod5.png);
 
 }
 
@@ -621,7 +672,12 @@ text-decoration: none;
     text-decoration: none;
     list-style-type: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: white;
+color: white;  }
+
+.acus:hover{
+    text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
 }
 
  

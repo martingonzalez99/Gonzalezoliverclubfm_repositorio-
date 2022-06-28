@@ -318,21 +318,32 @@ left: -30px;
 }
    
 
-.lir{
-    list-style-type:none ;
-    justify-content: space-between;
-    margin-left: 00px;
-    display:inline-block 
+.lir{display: inline;
+    margin:00px;
+    margin-right: 10px;
+    margin-left: 0px; 
+    align-items: center;
+    margin-bottom:  -12px;
+    color: white;
+    
 }
 
 
-
+.navr{
+    background-color: black;
+}
 
 
 .ulre{
-    background-color: black;
-    display: inline-block;
-    justify-content: space-between;
+    list-style: none;  
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content:auto;
+    align-items: center;
+    position: relative;
+    top: -13px;
+    left: -30px;
    
    
  
@@ -355,25 +366,28 @@ left: -30px;
 
 
 .h1r{
-    text-decoration:none;
-    padding: 0px;
-    color:white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   justify-content: center;
-    text-decoration: underline;
-    margin-left: 110px;
-  
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    background-color: white;
+    text-align: center;  }
     
+.h1r:hover{ background-image: url(./assets/fonod5.png);
+
 }
 
 .h2r{
     text-decoration: none;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-    justify-content: center;
+    text-align: center;
+
     
 }
+
+
 
 .h5r{
     display: none;
@@ -382,19 +396,19 @@ left: -30px;
 }
 
 .imgrr{
-    display: inline;
-  max-width: 500px;
-  max-height: 300px;
-margin-bottom: 00px;
-justify-content: center;
+    position: relative;
+    top: -100px;
+    right: 85px;
+
 
 }
 
 .imgdosr{
-    max-width: 500px;
-    margin-bottom: 00px;
-    max-height:300px ;
-    justify-content: center;
+   position: relative;
+   top: -100px;
+   right: 88px
+   
+   
 }
 
 .footr{
@@ -402,6 +416,9 @@ justify-content: center;
     list-style: none;
     display: inline-block;
     text-decoration: none;
+    overflow: hidden;
+    margin-top: -100px;
+    justify-content: space-between;
 
     
 }
@@ -410,13 +427,20 @@ justify-content: center;
 .afr{
     text-decoration: none;
     color: white;
-   
+   margin-right: 100px;
+}
+
+.afr:hover{
+    text-decoration: double;
+    color: rgba(243, 243, 243, 0.733);
+    text-decoration: underline;
 }
 
 .lifr{
     display: inline-block;
    margin-top: 100px;
    text-decoration: none;
+   
    
     
 }

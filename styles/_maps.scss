@@ -1,0 +1,9 @@
+$rede: (
+    TWITCH: #9003FF,
+    INSTAGRAM: #FF7503,
+);
+
+.imgr { background-color: map-get($rede,TWITCH);}
+
+
+

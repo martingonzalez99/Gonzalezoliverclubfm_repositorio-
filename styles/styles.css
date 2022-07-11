@@ -1,0 +1,19 @@
+.imgr {
+  background-color: #9003FF;
+}
+
+.btn-TWITCH {
+  background-color: #9003FF;
+  margin: 100px;
+}
+
+.btn-INSTAGRAM {
+  background-color: #FF7503;
+  margin: 100px;
+}
+
+.inicio, .tvvivo, .contacto, .redes, .noticias {
+  display: inline;
+  margin-left: 0px;
+  margin-right: 10px;
+}/*# sourceMappingURL=styles.css.map */

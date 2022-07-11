@@ -1,0 +1,9 @@
+@each $social, $fondo in $rede {
+ .btn-#{$social}  {
+    background-color: $fondo;
+    margin: 100px;
+ }
+
+
+}
+

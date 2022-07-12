@@ -89,8 +89,9 @@
     position: relative;
     top: -100px;
     right: 88px
+     
     
-    
+  
  }
 
 .footr{
@@ -129,6 +130,16 @@
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+
+  &:hover{ color: rgba(101, 24, 226, 0.733);
+    border: 100px;
+
+  }
+
+
 }
+
+
+
 
 

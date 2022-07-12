@@ -1,0 +1,126 @@
+.bodyn{
+    background-image:url(./../assets/fonod5.png);
+    
+}
+
+.connt{
+    background-color: black;
+
+    .logoweb{
+        width: 87px;;
+       position: relative;
+       top: -7px;
+       right: 10px;
+    }
+
+
+    .ulnn{
+        list-style: none;  
+        list-style: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        justify-content:auto;
+        align-items: center;
+        position: relative;
+        top: -13px;
+        left: -30px;
+        color: white;
+        
+        .listn{display: inline;
+            margin:00px;
+            margin-right: 10px;
+            margin-left: 0px; 
+            align-items: center;
+            margin-bottom:  -12px;
+            color: white;
+         
+
+            .an{
+                text-decoration: none;
+                color: white;
+                
+                &:hover{ text-decoration: double;
+                    color: rgba(243, 243, 243, 0.733);
+                    text-decoration: underline;
+                
+
+                }
+            
+            }
+        }
+       
+       
+    }
+
+}
+
+.h1n{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    background-color: white;
+    text-align: center;
+    
+    &:hover{ background-image: url(./../assets/fonod5.png)
+
+    }
+
+
+}
+
+
+.h2n{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: dotted;
+    text-align: center;
+
+}
+
+.pn{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.imgunon{
+    border: double white;
+    width: 540px;
+    height: auto;
+    justify-items: center;
+}
+
+.p2n{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.imgn{
+    border: double white;
+    width: 540px;
+    
+}
+
+.fotn{
+    
+    overflow: hidden; 
+    
+    .listnu{
+        list-style-type:none;
+        display: inline-block;
+        position:relative;
+        margin-top: 100px;
+        
+        .an{
+            color: white;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    
+    }
+}

@@ -1,17 +1,5 @@
-.imgdosr {
-  border: solid #9003FF;
-  margin-top: 100px;
-}
 
-.imgddos {
-  border: solid #9003FF;
-}
-
-.btn-twitch {
-  background-color: #9003FF;
-  border-color: #FF7503;
-}
-
+/*diseño index */
 body {
   background-image: url(./../assets/fonod5.png);
   overflow: auto;
@@ -114,6 +102,8 @@ body {
   text-decoration: underline;
 }
 
+
+/*diseño tv vivo */
 .bodytv {
   background-image: url(./../assets/fonod5.png);
   overflow: visible;
@@ -209,6 +199,8 @@ body {
   text-decoration: underline;
 }
 
+
+/*diseño redes */
 .body {
   background-image: url(./../assets/fonod5.png);
 }
@@ -317,6 +309,7 @@ body {
   text-decoration: none;
 }
 
+
 .imgddos {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
@@ -326,4 +319,196 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+}
+.imgddos:hover {
+  color: rgba(101, 24, 226, 0.733);
+  border: 100px;
+}
+
+
+/*diseño noticias */
+.bodyn {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.connt {
+  background-color: black;
+}
+.connt .logoweb {
+  width: 87px;
+  position: relative;
+  top: -7px;
+  right: 10px;
+}
+.connt .ulnn {
+  list-style: none;
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  position: relative;
+  top: -13px;
+  left: -30px;
+  color: white;
+}
+.connt .ulnn .listn {
+  display: inline;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+  align-items: center;
+  margin-bottom: -12px;
+  color: white;
+}
+.connt .ulnn .listn .an {
+  text-decoration: none;
+  color: white;
+}
+.connt .ulnn .listn .an:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
+
+.h1n {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+  text-align: center;
+}
+.h1n:hover {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.h2n {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-align: center;
+}
+
+.pn {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.imgunon {
+  border: double white;
+  width: 540px;
+  height: auto;
+  justify-items: center;
+}
+
+.p2n {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.imgn {
+  border: double white;
+  width: 540px;
+}
+
+.fotn {
+  overflow: hidden;
+}
+.fotn .listnu {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  margin-top: 100px;
+}
+.fotn .listnu .an {
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+/*diseño contacto */
+.bodyc {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.logoweb {
+  width: 87px;
+  position: relative;
+  top: -7px;
+  right: 10px;
+}
+
+.ulc {
+  list-style: none;
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  position: relative;
+  top: -15px;
+  margin-bottom: 50px;
+  left: -30px;
+  color: white;
+}
+.ulc .lic {
+  display: inline;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+  align-items: center;
+  margin-bottom: -12px;
+  color: white;
+}
+.ulc .lic .ac {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+}
+.ulc .lic .ac:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
+
+.h1c {
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.h1c:hover {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.formc {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: black;
+}
+
+.acus {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+.acus:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */

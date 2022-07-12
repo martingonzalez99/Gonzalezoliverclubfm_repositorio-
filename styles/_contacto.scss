@@ -1,0 +1,85 @@
+.bodyc{
+    background-image: url(./../assets/fonod5.png);
+
+}
+
+.logoweb{
+    width: 87px;;
+   position: relative;
+   top: -7px;
+   right: 10px;
+}
+
+.ulc{
+    list-style: none;  
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content:auto;
+    align-items: center;
+    position: relative;
+    top: -15px;
+    margin-bottom: 50px;
+    left: -30px;
+    color: white;
+
+    .lic{ display: inline;
+        margin:00px;
+        margin-right: 10px;
+        margin-left: 0px; 
+        align-items: center;
+        margin-bottom:  -12px;
+        color: white;
+        
+        .ac{ color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
+        
+            &:hover{
+                text-decoration: double;
+                color: rgba(243, 243, 243, 0.733);
+                text-decoration: underline;
+            }
+
+        }
+        
+    }
+
+}
+
+
+.h1c{
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    background-color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    &:hover{
+        background-image: url(./../assets/fonod5.png)
+    }
+
+}
+
+
+.formc{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+
+.acus{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;  
+
+        &:hover{
+            text-decoration: double;
+            color: rgba(243, 243, 243, 0.733);
+            text-decoration: underline;
+        }
+
+}

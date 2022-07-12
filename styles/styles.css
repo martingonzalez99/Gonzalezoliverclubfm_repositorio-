@@ -1,10 +1,10 @@
 .imgdosr {
-  background-color: #9003FF;
+  border: solid #9003FF;
   margin-top: 100px;
 }
 
 .imgddos {
-  background-color: #9003FF;
+  border: solid #9003FF;
 }
 
 .btn-twitch {
@@ -49,12 +49,29 @@ body {
   bottom: 200px;
   justify-content: space-around;
 }
+.gridnav .a {
+  text-decoration: none;
+  color: white;
+}
+.gridnav .a:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
 
 .gridimg {
   display: grid;
   width: 96%;
   max-width: 960px;
   margin: auto;
+}
+.gridimg .img {
+  width: 100%;
+  height: auto;
+  border: double white;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .parrafo {
@@ -70,4 +87,243 @@ body {
 }
 .parrafo:hover {
   background-image: url(./../assets/fonod5.png);
+}
+
+.footer {
+  margin-top: 300px;
+  overflow: hidden;
+  height: 200px;
+  margin: 0px;
+}
+.footer .listdos {
+  list-style-type: none;
+  display: inline-block;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.footer .listdos .ali {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.footer .listdos .ali:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
+
+.bodytv {
+  background-image: url(./../assets/fonod5.png);
+  overflow: visible;
+}
+
+.headertv {
+  background-color: black;
+  border: solid black;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  background-color: black;
+  border: solid black;
+  margin: top -230px;
+}
+.headertv .logoweb {
+  width: 87px;
+  position: relative;
+  top: -7px;
+  right: 10px;
+}
+.headertv .ultv {
+  list-style: none;
+  display: inline;
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  position: relative;
+  top: -30px;
+  left: -30px;
+}
+.headertv .ultv .auno {
+  text-decoration: none;
+  color: white;
+}
+.headertv .ultv .auno:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.658);
+  text-decoration: underline;
+}
+
+.listtv {
+  display: inline;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+  align-items: center;
+  margin-bottom: -12px;
+  color: white;
+}
+
+.h1tv {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+  text-align: center;
+}
+.h1tv :hover {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.videotv {
+  width: 100%;
+  height: 100%;
+  border: double white;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.footertv {
+  margin-top: 23px;
+  overflow: hidden;
+}
+.footertv .fottv {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+  width: 90px;
+}
+.footertv .fottv .afot {
+  text-decoration: none;
+  color: white;
+}
+.footertv .fottv .afot:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
+
+.body {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.navr {
+  background-color: black;
+}
+.navr .logoweb {
+  width: 87px;
+  position: relative;
+  top: -7px;
+  right: 10px;
+}
+.navr .ulre {
+  list-style: none;
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  position: relative;
+  top: -13px;
+  left: -30px;
+}
+.navr .ulre .lir {
+  display: inline;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+  align-items: center;
+  margin-bottom: -12px;
+  color: white;
+}
+.navr .ulre .lir .ar {
+  text-decoration: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.navr .ulre .lir .ar:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
+
+.h1r {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+  text-align: center;
+}
+.h1r:hover {
+  background-image: url(./../assets/fonod5.png);
+}
+
+.h2r {
+  text-decoration: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.h5r {
+  display: none;
+  justify-content: center;
+}
+
+.imgrr {
+  position: relative;
+  top: -100px;
+  right: 85px;
+}
+
+.imgdosr {
+  position: relative;
+  top: -100px;
+  right: 88px;
+}
+
+.footr {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  margin-top: -100px;
+  justify-content: space-between;
+}
+.footr .afr {
+  text-decoration: none;
+  color: white;
+  margin-right: 39px;
+}
+.footr .afr:hover {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: rgba(243, 243, 243, 0.733);
+  text-decoration: underline;
+}
+.footr .lifr {
+  display: inline-block;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+.imgddos {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }/*# sourceMappingURL=styles.css.map */

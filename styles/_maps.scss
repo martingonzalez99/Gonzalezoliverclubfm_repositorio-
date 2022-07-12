@@ -1,16 +1,16 @@
 $rede: (
-    TWITCH: #9003FF,
+    TWITCH: solid #9003FF,
     
     margin-top:100px
     
 );
 
-.imgdosr { background-color: map-get($rede,TWITCH);
+.imgdosr { border: map-get($rede,TWITCH);
 margin-top: map-get( $rede,margin-top);
 
 }
 
-.imgddos{ background-color: map-get($rede,TWITCH );
+.imgddos{ border:  map-get($rede,TWITCH );
 }
 
 

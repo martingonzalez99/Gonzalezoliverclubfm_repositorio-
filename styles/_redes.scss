@@ -1,0 +1,134 @@
+.body{
+    background-image: url(./../assets/fonod5.png); 
+}
+
+.navr{
+    background-color: black;
+
+ .logoweb{
+        width: 87px;;
+       position: relative;
+       top: -7px;
+       right: 10px;
+    }
+
+    .ulre{
+        list-style: none;  
+        list-style: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        justify-content:auto;
+        align-items: center;
+        position: relative;
+        top: -13px;
+        left: -30px;
+           
+    .lir{display: inline;
+    margin:00px;
+    margin-right: 10px;
+    margin-left: 0px; 
+    align-items: center;
+    margin-bottom:  -12px;
+    color: white;
+    
+    .ar{
+        text-decoration: none;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+        &:hover{ text-decoration: double;
+            color: rgba(243, 243, 243, 0.733);
+            text-decoration: underline;
+        
+
+        }
+
+    }
+
+    }
+}
+}
+
+.h1r{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: solid $negro;
+    border-bottom: solid $negro;
+    border-left: solid $negro;
+    border-right: solid $negro;
+    background-color: white;
+    text-align: center; 
+        
+        &:hover {background-image: url(./../assets/fonod5.png);
+
+        }
+        
+}
+
+.h2r{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;    
+}
+
+.h5r{
+    display: none;
+    justify-content: center;
+    
+}
+
+.imgrr{
+    position: relative;
+    top: -100px;
+    right: 85px;
+
+
+}
+
+.imgdosr{
+    position: relative;
+    top: -100px;
+    right: 88px
+    
+    
+ }
+
+.footr{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    margin-top: -100px;
+    justify-content: space-between;
+
+
+    .afr{
+        text-decoration: none;
+        color: white;
+       margin-right: 39px;
+        
+       &:hover{text-decoration: double;
+        color: rgba(243, 243, 243, 0.733);
+        text-decoration: underline;
+       }
+    
+    }
+    
+    .lifr{
+        display: inline-block;
+       margin-top: 100px;
+       text-decoration: none;
+       
+}
+ }
+ 
+ 
+ .imgddos{
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+

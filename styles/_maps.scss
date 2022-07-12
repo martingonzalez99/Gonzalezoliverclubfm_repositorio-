@@ -1,9 +1,16 @@
 $rede: (
     TWITCH: #9003FF,
-    INSTAGRAM: #FF7503,
+    
+    margin-top:100px
+    
 );
 
-.imgr { background-color: map-get($rede,TWITCH);}
+.imgdosr { background-color: map-get($rede,TWITCH);
+margin-top: map-get( $rede,margin-top);
 
+}
+
+.imgddos{ background-color: map-get($rede,TWITCH );
+}
 
 

@@ -24,46 +24,8 @@
 
 }
 
-.inicio{
-    display: inline;
-   margin-left: 00px;
-   margin-right: 10px;
-     }
 
 
-
-    
-
-
-.noticias{
-    display: inline;
-    margin: 0px;
-    margin-right: 10px;
-    margin-left: 10px;  }
-  
-
-
- .redes{
-    display: inline;
-    margin: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
- }
-
- .tvvivo{
-    display: inline;
-    margin: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
- 
-
-.contacto{
-    display: inline;
-    margin: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
 
 .gridimg{
     display: grid;

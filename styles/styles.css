@@ -1,15 +1,15 @@
-.imgr {
+.imgdosr {
+  background-color: #9003FF;
+  margin-top: 100px;
+}
+
+.imgddos {
   background-color: #9003FF;
 }
 
-.btn-TWITCH {
+.btn-twitch {
   background-color: #9003FF;
-  margin: 100px;
-}
-
-.btn-INSTAGRAM {
-  background-color: #FF7503;
-  margin: 100px;
+  border-color: #FF7503;
 }
 
 .inicio, .tvvivo, .contacto, .redes, .noticias {

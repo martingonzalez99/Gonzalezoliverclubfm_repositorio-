@@ -12,8 +12,62 @@
   border-color: #FF7503;
 }
 
-.inicio, .tvvivo, .contacto, .redes, .noticias {
+body {
+  background-image: url(./../assets/fonod5.png);
+  overflow: auto;
+}
+
+.gridlogo {
+  display: grid;
+  grid-template-columns: 100px;
+  background-color: black;
+  grid-template-rows: 50px;
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+}
+
+.gridnav {
+  background-color: black;
+}
+.gridnav .inicio, .gridnav .tvvivo, .gridnav .contacto, .gridnav .redes, .gridnav .noticias {
   display: inline;
   margin-left: 0px;
   margin-right: 10px;
+}
+.gridnav .list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  border-top: solid black;
+  border-bottom: solid black;
+  text-transform: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.gridnav .list li {
+  display: inline;
+  margin: 0px;
+  bottom: 200px;
+  justify-content: space-around;
+}
+
+.gridimg {
+  display: grid;
+  width: 96%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.parrafo {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  text-transform: uppercase;
+  border-top: solid black;
+  border-bottom: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  background-color: white;
+}
+.parrafo:hover {
+  background-image: url(./../assets/fonod5.png);
 }/*# sourceMappingURL=styles.css.map */

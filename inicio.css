@@ -1,102 +1,38 @@
- body{background-image: url(assets/fonod5.png);
-    overflow: auto;    
-          
-}
-
-.gridlogo{
-    display: grid;
-    grid-template-columns: 100px;
-    background-color: black;
-    grid-template-rows: 50px;
-    grid-row-gap: 15px ;
-    grid-column-gap: 10px;
-
-}
+ 
 
 
 
 
-.gridnav{
-    background-color: black;
-    
-  
-   
-
-}
 
 
 
 
-.gridimg{
-    display: grid;
-  width: 96%;
-    max-width: 960px;
-    margin: auto;
-}
-
-.imgg{
-    display: grid;
-    width: 100%;
-    height: auto;
-}
 
 
 
-.header{
-        display: flex;
-        justify-content:auto;
-        align-items: center;
-        background-color: black;
-        border: solid black;position: relative;
-        top: 20px;
-     
-}
+
+
+
+
+
+
         
 
 
- .logo{ 
-     width:70px;
-    height: 80px;
-    
-}
 
-.list{
-    list-style-type: none;
-    margin: 0px;
-    padding: 00px;
-    border-top: solid black;
-    border-bottom: solid black;
-  text-transform: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     }
+    
+
+
+
 
 
   
      
 
-.list li{ 
-    display: inline ;
-    margin: 00px;
-    bottom: 200px;
-    justify-content: space-around;
-}
+
  
-.parrafo{
 
-    text-align:center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;
-    text-transform: uppercase;
-    border-top: solid black;
-    border-bottom: solid black;
-    border-left: solid black;
-    border-right: solid black;
-    background-color: white;;
-}
 
-.parrafo:hover{
-    background-image:url(./assets/fonod5.png);
-}
 
 .img{
     width: 100%;

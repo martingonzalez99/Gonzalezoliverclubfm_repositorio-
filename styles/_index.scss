@@ -1,0 +1,86 @@
+body
+    {background-image: url(./../assets/fonod5.png);
+    overflow: auto;}
+
+.gridlogo{
+    display: grid;
+    grid-template-columns: 100px;
+    background-color: $negro;
+    grid-template-rows: 50px;
+    grid-row-gap: 15px ;
+    grid-column-gap: 10px;
+    
+    }
+
+    .gridnav{
+        background-color: black;
+        
+        .inicio {
+            display: inline;
+            margin-left: 00px;
+            margin-right: 10px;
+        }
+
+        .noticias{
+            @extend .inicio;
+        
+        }
+        
+        .redes{
+            @extend .inicio;
+        }
+        
+        .contacto{
+            @extend .inicio;
+        }
+        
+        .tvvivo{
+            @extend .inicio;
+        }
+      
+        .list{
+            list-style-type: none;
+            margin: 0px;
+            padding: 00px;
+            border-top: solid $negro;
+            border-bottom: solid $negro;
+            text-transform: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        
+            .list li { 
+                display: inline ;
+                margin: 00px;
+                bottom: 200px;
+                justify-content: space-around;
+            } 
+
+    
+    }
+
+      
+
+    .gridimg{
+        display: grid;
+      width: 96%;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .parrafo{
+
+        text-align:center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        text-transform: uppercase;
+        border-top: solid $negro;
+        border-bottom: solid $negro;
+        border-left: solid $negro;
+        border-right: solid $negro;
+        background-color: white;
+
+            &:hover {
+            background-image:url(./../assets/fonod5.png);
+        } 
+    }
+
+

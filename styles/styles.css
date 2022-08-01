@@ -1,5 +1,3 @@
-
-/*diseño index */
 body {
   background-image: url(./../assets/fonod5.png);
   overflow: auto;
@@ -102,8 +100,6 @@ body {
   text-decoration: underline;
 }
 
-
-/*diseño tv vivo */
 .bodytv {
   background-image: url(./../assets/fonod5.png);
   overflow: visible;
@@ -199,8 +195,6 @@ body {
   text-decoration: underline;
 }
 
-
-/*diseño redes */
 .body {
   background-image: url(./../assets/fonod5.png);
 }
@@ -309,7 +303,6 @@ body {
   text-decoration: none;
 }
 
-
 .imgddos {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
@@ -325,8 +318,6 @@ body {
   border: 100px;
 }
 
-
-/*diseño noticias */
 .bodyn {
   background-image: url(./../assets/fonod5.png);
 }
@@ -434,8 +425,6 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-
-/*diseño contacto */
 .bodyc {
   background-image: url(./../assets/fonod5.png);
 }
